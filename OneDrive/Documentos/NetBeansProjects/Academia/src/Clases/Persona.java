@@ -4,13 +4,13 @@ public class Persona {
     private String Nombres;
     private String Apellidos;
     private String Email;
-    private String telefono;
+    private String Telefono;
 
-    public Persona(String Nombres, String Apellidos, String Email, String telefono) {
+    public Persona(String Nombres, String Apellidos, String Email, String Telefono) {
         this.Nombres = Nombres;
         this.Apellidos = Apellidos;
         this.Email = Email;
-        this.telefono = telefono;
+        this.Telefono = Telefono;
     }
 
     public String getNombres() {
@@ -26,7 +26,7 @@ public class Persona {
     }
 
     public String getTelefono() {
-        return telefono;
+        return Telefono;
     }
 
     public void setNombres(String Nombres) {
@@ -41,13 +41,13 @@ public class Persona {
         this.Email = Email;
     }
 
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
+    public void setTelefono(String Telefono) {
+        this.Telefono = Telefono;
     }
 
     @Override
     public String toString() {
-        return "Persona{" + "Nombres=" + Nombres + ", Apellidos=" + Apellidos + ", Email=" + Email + ", telefono=" + telefono + '}';
+        return "Persona{" + "Nombres=" + Nombres + ", Apellidos=" + Apellidos + ", Email=" + Email + ", Telefono=" + Telefono + '}';
     }
     
     
